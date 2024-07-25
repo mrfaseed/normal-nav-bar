@@ -1,0 +1,44 @@
+body{
+    background-color: #ffffff;
+    
+}
+
+ul{
+    padding: 0;
+    margin: 0;
+    display: block;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+}
+li{
+    padding: auto;
+    color: rgb(255, 255, 255);
+    list-style-type: none;
+    
+
+}
+
+li a{
+    display: block;
+    color: rgb(255, 255, 255);
+    padding: 23px 20px;
+    text-decoration: none;  
+    text-align: center;
+    border-bottom: none;
+    float: left;
+}
+
+li a.active{
+    background-color: green;
+    color: white;
+    border-bottom: none;
+}
+
+li a:hover:not(.active){
+    background-color: #bbb7b7;
+    color: rgb(0, 0, 0);
+}
+
